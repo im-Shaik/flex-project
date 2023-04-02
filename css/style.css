@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+/* Default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Default */
+
+/* Header Start */
+header {
+  background-color: #750db5;
+  padding: 20px 0;
+}
+
+header .parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+header .parent ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+header .parent ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+}
+/* Header End */
+
+/* Banner Start */
+.banner {
+  padding: 60px 0;
+}
+
+.banner .banner-parent {
+  display: flex;
+  gap: 30px;
+  /* align-items: center; */
+}
+
+.banner .content h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.banner .content h1 > span {
+  display: block;
+  margin-bottom: 15px;
+}
+.banner .content h1 > span:last-child {
+  margin-bottom: 30px;
+}
+.banner .content h1 > span:last-child span {
+  color: #750db5;
+  font-weight: 700;
+}
+
+.banner .content p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #505050;
+  margin-bottom: 20px;
+}
+
+.banner .container .links {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+
+.banner .container .links a:first-child {
+  margin-left: -20px;
+  display: flex;
+}
+.banner .container .links a:last-child {
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  gap: 5px;
+  color: #14121f;
+}
+
+/* Banner End */
+
+/* Jobs Start */
+.jobs {
+  padding: 20px 0;
+}
+
+.jobs .jobs-heading {
+  margin-bottom: 50px;
+}
+.jobs .jobs-heading h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.jobs .box-parent {
+  display: flex;
+  /* justify-items: center; */
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.jobs .box {
+  border-radius: 10px;
+  padding: 40px 50px;
+  height: 300px;
+  width: 350px;
+}
+
+.jobs .box-parent .box > div {
+  margin: 15px 0;
+  /* background-color: red; */
+}
+
+.jobs .box:nth-child(1) {
+  background-color: #0c445c;
+  color: white;
+}
+
+.jobs .box:nth-child(2) {
+  background-color: #5b2c98;
+  color: white;
+}
+
+.jobs .box:nth-child(3) {
+  background-color: #a77832;
+  color: white;
+}
+
+.jobs .box-parent .box > div ~ div {
+  /* background-color: red */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.jobs .box-parent .box > div ~ div span:first-child {
+  /* background-color: red; */
+  border: 2px solid #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Jobs End */
+
+/* Footer Start */
+footer {
+  margin-top: 150px;
+  padding: 20px 0;
+  background-color: #d6d6d6;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* Footer End */
